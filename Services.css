@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Montserrat', sans-serif;
+}
+.hero{
+width: 100%;
+height: 90vh;
+background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url('https://www.tiltlabs.io/wp-content/uploads/2020/09/shutterstock_772107742.jpg');
+background-size: cover;
+position: relative;
+padding: 0 5%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+nav{
+width: 100%;
+position: absolute;
+top: 0;
+left: 0;
+padding: 20px 8%;
+display: flex;
+align-items: center;
+justify-content: space-between
+}
+
+nav .logo{
+width: 80px;
+
+}
+nav ul li{
+list-style: none;
+display: inline-block;
+margin-left: 40px;
+
+
+}
+
+nav ul li a{
+text-decoration: none;
+color: whitesmoke;
+font-size: 17px;
+}
+
+.content{
+text-align: center;
+justify-content: center;
+
+}
+.content h3{
+font-size: 40px;
+color: rgb(254, 254, 255);
+font-weight: 200;
+line-height: 3rem;
+}
+.content p{
+color: white;
+line-height: 2rem;
+}
+.content a{
+text-decoration: none;
+display: inline-block;
+color:white;
+font-size: 20px;
+border:2px solid black ;
+padding: 10px 30px;
+border-radius: 10px;
+margin-top: 20px;
+background-color:black;
+
+}
+
+.focus{
+margin: 3% 12%;
+padding: 0% 2%;
+}
+
+.serv-1{
+display: flex;
+justify-content: space-around;
+margin: 3% 12%;
+}
+.serv-1 div{
+flex: 50%;
+padding: 2%;
+line-height: 1.3rem;
+}
+.serv-1 img{
+width: 100%;
+
+}
+.serv-1 p{
+font-size: 13.5px;
+color: grey;
+}
+.serv-1 a{
+text-decoration: none;
+background-color: black;
+padding: 1%;
+color: aliceblue;
+border-radius: 3px;
+}
+
+.tech-exp{
+display: flex;
+justify-content: space-evenly;
+margin: 2% 15%;
+}
+.tech-exp img:hover{
+opacity: .9;
+}
+.tech-exp img{
+width: 130px;
+height: 130px;
+opacity: .5;
+transition: ease;
+transition-duration: .3s;
+}
+.tech-exp2{
+display: flex;
+justify-content: space-evenly;
+margin: 2% 10%;
+
+}
+.tech-exp2 img:hover{
+opacity: .9;
+}
+.tech-exp2 img{
+width: 110px;
+height: 110px;
+opacity: .5;
+transition: ease;
+transition-duration: .3s;
+}
+
+@media (max-width:540px) {
+.tech-exp{
+flex-direction: column;
+
+}
+.tech-exp2{
+flex-direction: column;
+
+}
+.tech-exp img{
+width: 900px;
+height: 600px;
+}
+.tech-exp2 img{
+width: 90px;
+height: 90px;
+}
+}
+
+@media (max-width: 820px) {
+.serv-1{
+flex-direction: column;
+margin: 5% 5%;
+}
+.tech-exp{
+overflow: auto;
+
+}
+.tech-exp2{
+overflow: auto;
+
+}
+.tech-exp img{
+width: 100px;
+height: 100px;
+}
+.tech-exp2 img{
+width: 90px;
+height: 90px;
+}
+.parallax{
+flex-direction: column;
+height: auto;
+text-align: left;
+padding-bottom: 5%;
+
+}
+.parallax button{
+display: none;
+          
+}
+.c-slider{
+overflow: auto;
+}
+}
+
+.parallax {
+/* The image used */
+background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+ rgba(0, 0, 0, 0.7)),url('https://www.tiltlabs.io/wp-content/uploads/2020/09/tiltlabs-footer.jpg');
+
+/* Full height */
+height: 400px;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+padding: 0% 12%;
+}
+.parallax h4{
+text-align: left;
+color:rgb(255, 255, 255);
+font-weight: 300;
+
+
+
+
+font-size: 60px;
+}
+.parallax >div button{
+padding: 10px;
+font-size: 20px;
+border-radius: 10px;
+border: none;
+
+
+}
+.parallax>div{
+    position: relative;
+top: 150px;
+flex: 50%;
+text-align: right;
+}
+
+.sec3-content{
+margin-left: 9%;
+margin-right: 9%;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.sec3-content>div{
+margin: 1% 4.5% 1% 4.5%;
+padding-top: 5%;
+padding-bottom: 2%;
+text-align: center;
+}
+.sec3-content p{
+font-size: 15px;
+font-weight: 3;
+}
+
+.c-slider{
+    align-content: center;
+    align-items: center;
+    margin: 5% 12%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.c-slider>div{
+    padding: 20PX;
+    border: .2px solid rgb(192, 190, 190);
+    border-radius: 3%;
+    width: auto;
+    background-color: white;
+    margin: 1% .5%;
+}
+
+.cont-frm{
+    
+    width: 80%;
+    background-image: url(https://www.tiltlabs.io/wp-content/uploads/2020/09/shutterstock_232614109.jpg);
+    height: 400px;
+    background-position:left;
+    background-size: cover;
+    margin: 5% 12% 5% 12%;
+   
+    display: flex;
+}
+.cont-frm div{
+    
+    flex: 50%;
+}
+
+
+.accordion-button{
+    background-color: black;
+    color: white;
+}
